@@ -1,0 +1,16 @@
+.columns.is-vcentered {
+	position: absolute;
+	top:25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+  }
+
+  .input.sized {
+      width: 50%;
+  }
+
+  .field.sized {
+    width: 50%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <title>Finance Calculator</title>
+</head>
+<body>
+    <div class="columns is-vcentered ">    
+        <div class="container">
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                    <label class="label">Principal Amount</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Insert the amount without zero separators">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                    <label class="label">The Interest Rate</label>
+                </div>
+                <div class="field-body">
+                    <div class="field has-addons ">
+                        <p class="control">
+                            <input class="input" type="text" placeholder="Interest rate in %">
+                        </p>
+                        <p class="control">
+                            <span class="select">
+                                <select>
+                                <option>Anually</option>
+                                <option>Semi-Anually</option>
+                                <option>Quarterly</option>
+                                <option>Monthly</option>
+                                </select>
+                            </span>
+                        </p>        
+                    </div>
+                </div>
+            </div>
+            <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Period of Time</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" placeholder="In years">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="field is-grouped is-grouped-centered">
+                <p class="control">
+                    <a class="button is-primary">
+                    Calculate
+                    </a>
+                </p>
+                <p class="control">
+                    <a class="button is-light">
+                    Clear
+                    </a>
+                </p>
+            </div>
+        </div>
+        
+    </div>               
+</body>
+</html>
